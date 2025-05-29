@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>اللجنة النقابية - شركة مصر للصيانة</title>
+  <!-- رابط Font Awesome لأيقونات -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papbFg06+Hw4vjfQ0R7QNXKw+Cw7xy4ZL6P+ri/PAO9TP0qErWuq+O0qgQ0KYl2lMl5vSgQF5r9Oe+2Z6Gzhmw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    header {
+      background: #003366;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .logo {
+      max-width: 180px;
+      margin: 10px auto;
+      display: block;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto 40px;
+      padding: 0 15px;
+    }
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .section {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+      width: 280px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(0 0 0 / 0.15);
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .section h3 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      color: #003366;
+    }
+    .btn-whatsapp, .btn-facebook {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
+      transition: background-color 0.3s ease;
+      color: white;
+      font-size: 1rem;
+      user-select: none;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      box-shadow: 0 3px 8px rgb(37 211 102 / 0.5);
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5a;
+      box-shadow: 0 5px 12px rgb(27 184 84 / 0.7);
+    }
+    .btn-facebook {
+      background-color: #1877F2;
+      box-shadow: 0 3px 8px rgb(24 119 242 / 0.6);
+    }
+    .btn-facebook:hover {
+      background-color: #1359c9;
+      box-shadow: 0 5px 12px rgb(19 89 201 / 0.7);
+    }
+    footer {
+      background: #003366;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .contact-section {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+      max-width: 900px;
+      margin: 0 auto 50px;
+      padding: 25px 15px;
+      text-align: center;
+    }
+    .contact-section h2 {
+      margin-bottom: 20px;
+      color: #003366;
+      font-size: 1.5rem;
+    }
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .contact-buttons a {
+      flex: 1 1 180px;
+      max-width: 220px;
+    }
+    @media (max-width: 650px) {
+      .sections {
+        flex-direction: column;
+        align-items: center;
+      }
+      .section {
+        width: 90%;
+      }
+      .contact-buttons {
+        flex-direction: column;
+      }
+      .contact-buttons a {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    اللجنة النقابية للعاملين بشركة مصر للصيانة
+    <img class="logo" src="https://g.top4top.io/p_3436lmuhf1.jpg" alt="شعار اللجنة النقابية" />
+  </header>
+
+  <main class="container">
+    <section class="sections">
+      <div class="section" onclick="window.open('https://f.top4top.io/p_3436gx8ip2.jpg', '_blank')">
+        <img src="https://f.top4top.io/p_3436gx8ip2.jpg" alt="الخدمات" />
+        <h3>الخدمات</h3>
+        <a class="btn-whatsapp" href="https://wa.me/01222938058" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> واتساب الخدمات
+        </a>
+      </div>
+      <div class="section" onclick="window.open('https://g.top4top.io/p_3436u0u793.jpg', '_blank')">
+        <img src="https://g.top4top.io/p_3436u0u793.jpg" alt="التنظيم" />
+        <h3>التنظيم</h3>
+        <a class="btn-whatsapp" href="https://wa.me/01117665641" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> واتساب التنظيم
+        </a>
+      </div>
+      <div class="section" onclick="window.open('https://e.top4top.io/p_3436trx5w1.jpg', '_blank')">
+        <img src="https://e.top4top.io/p_3436trx5w1.jpg" alt="أمانة الصندوق" />
+        <h3>أمانة الصندوق</h3>
+        <a class="btn-whatsapp" href="https://wa.me/01006773456" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> واتساب أمانة الصندوق
+        </a>
+      </div>
+    </section>
+
+    <section class="contact-section" aria-label="التواصل مع اللجنة">
+      <h2>التواصل مع اللجنة</h2>
+      <div class="contact-buttons">
+        <a class="btn-whatsapp" href="https://wa.me/message/Z5GCUOBQCZW2L1?src=qr" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> الاستفسارات والتوجيهات
+        </a>
+        <a class="btn-whatsapp" href="https://wa.me/message/Z5GCUOBQCZW2L1?src=qr" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> التواصل مع اللجنة
+        </a>
+        <a class="btn-facebook" href="https://facebook.com/qr?id=100064119966130" target="_blank" rel="noopener">
+          <i class="fab fa-facebook-f"></i> صفحة الفيسبوك
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 اللجنة النقابية للعاملين بشركة مصر للصيانة. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>
